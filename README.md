@@ -9,6 +9,11 @@ java Client in terminal 3
 
 
 ASSIGNMENT 2 - CORBA
+idlj -fall calculator.idl in terminal 1
+javac client\*.java server\*.java calculator_module\*.java in terminal 1
+orbd -ORBInitialPort 1050 -ORBInitialHost localhost in terminal 2
+java server.CalculatorServer -ORBInitialPort 1050 -ORBInitialHost localhost in terminal 3
+java client.CalculatorClient -ORBInitialPort 1050 -ORBInitialHost localhost in terminal 4
 
 
 
