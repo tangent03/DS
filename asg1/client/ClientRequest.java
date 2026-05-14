@@ -38,3 +38,10 @@ public class ClientRequest {
         }
     }
 }
+
+
+// javac remotes*.java server*.java client*.java
+
+// java server.SearchServer
+
+// java client.ClientRequest
