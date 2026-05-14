@@ -185,7 +185,7 @@ public class ClientRequest {
 
 COMMAND:
 
-javac remotes\*.java server\*.java client\*.java
+javac remotes/*.java server/*.java client/*.java
 
 java server.SearchServer
 
